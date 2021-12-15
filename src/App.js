@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" exact element={<FormInput />} />
+        <Route path="/form-register" exact element={<FormInput />} />
         <Route path="/list" exact element={<List />} />
       </Routes>
     </Router>
